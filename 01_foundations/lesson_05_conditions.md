@@ -1,6 +1,6 @@
 # Lesson 05: Conditions - Teaching Your Code to Make Decisions!
 
-Imagine you're at a fork in the road. You look at a sign: "If it's raining, go left to the shelter. Otherwise, go right to the park." That's exactly what **conditions** *(अटी)* do in programming -- they let your code **choose** which path to follow!
+Imagine you're at a fork in the road. You look at a sign: "If it's raining, go left to the shelter. Otherwise, go right to the park." That's exactly what **conditions** (अट — खरे/खोटे ठरवणारे विधान) do in programming -- they let your code **choose** which path to follow!
 
 ---
 
@@ -11,7 +11,7 @@ Every day, you make hundreds of decisions:
 - **If** it's cold outside, I'll wear a jacket. **Otherwise**, I'll wear a t-shirt.
 - **If** I got an A, celebrate! **Else if** I got a B, still good! **Else**, study harder.
 
-Python can make these same kinds of decisions! The magic words are `if` *(जर)*, `elif` *(किंवा जर — "else if")*, and `else` *(नाहीतर)*.
+Python can make these same kinds of decisions! The magic words are `if` (जर — अट खरी असेल तर कोड चालवणे), `elif` (किंवा जर — आधीच्या अटी खोट्या असतील तर पुढची अट तपासणे), and `else` (नाहीतर — अट खोटी असेल तर वेगळा कोड चालवणे).
 
 ---
 
@@ -71,7 +71,7 @@ When Python compares things, the answer is always one of two special values:
 - `True` -- Yes! It's correct!
 - `False` -- No! It's wrong!
 
-These are called **Boolean values** *(बूलियन मूल्ये)* (named after mathematician George Boole).
+These are called **Boolean values** (बूलियन — True किंवा False, फक्त दोन मूल्यांचा प्रकार) (named after mathematician George Boole).
 
 ```python
 is_sunny = True
@@ -455,7 +455,7 @@ Logical operators let you **combine** multiple conditions together.
 
 ### `and` -- Both Must Be True
 
-Like needing BOTH a ticket AND an ID to enter a concert.
+The `and` (आणि — दोन्ही अटी खऱ्या असणे आवश्यक) operator is like needing BOTH a ticket AND an ID to enter a concert.
 
 ```python
 age = 15
@@ -480,7 +480,7 @@ Welcome to the concert!
 
 ### `or` -- At Least One Must Be True
 
-Like a restaurant that accepts cash OR card -- either one works!
+The `or` (किंवा — कोणतीही एक अट खरी असली तरी पुरे) operator is like a restaurant that accepts cash OR card -- either one works!
 
 ```python
 has_cash = False
@@ -505,7 +505,7 @@ You can pay for the meal!
 
 ### `not` -- Flip the Value
 
-Like saying "If it's NOT raining..." It turns True into False and False into True.
+The `not` (नाही — अटीला उलट करणारा, True चे False करणे) operator is like saying "If it's NOT raining..." It turns True into False and False into True.
 
 ```python
 is_raining = False

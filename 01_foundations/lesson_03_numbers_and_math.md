@@ -8,7 +8,7 @@ You already met these two number types in Lesson 02. Let's dive deeper!
 
 ### Integers (`int`) -- Whole Numbers
 
-Integers are numbers **without** a decimal point. They can be positive, negative, or zero.
+**Integers** (पूर्णांक — दशांशविनाचा पूर्ण संख्या प्रकार) are numbers **without** a decimal point. They can be positive, negative, or zero.
 
 ```python
 apples = 10
@@ -44,7 +44,7 @@ print(huge_number)
 
 ### Floats (`float`) -- Decimal Numbers
 
-Floats are numbers **with** a decimal point.
+**Floats** (दशांश — दशांश चिन्ह असलेली संख्या) are numbers **with** a decimal point.
 
 ```python
 height = 4.5
@@ -106,7 +106,7 @@ Let's explore each one in detail!
 
 ### Addition (`+`)
 
-Addition works exactly like you would expect. Think of it as combining things together.
+**Addition** (बेरीज — दोन संख्या एकत्र करणे) works exactly like you would expect. Think of it as combining things together.
 
 ```python
 print(5 + 3)
@@ -140,7 +140,7 @@ Total marbles: 20
 
 ### Subtraction (`-`)
 
-Subtraction finds the difference between numbers.
+**Subtraction** (वजाबाकी — एका संख्येतून दुसरी काढून घेणे) finds the difference between numbers.
 
 ```python
 print(10 - 3)
@@ -174,7 +174,7 @@ Money remaining: 35 rupees
 
 ### Multiplication (`*`)
 
-Multiplication is repeated addition. In Python, we use the `*` symbol (not `x`).
+**Multiplication** (गुणाकार — संख्या ठराविक वेळा बेरीज करणे) is repeated addition. In Python, we use the `*` symbol (not `x`).
 
 ```python
 print(6 * 7)
@@ -208,7 +208,7 @@ Total chairs: 40
 
 ### Division (`/`)
 
-Division splits a number into equal parts. The result is **always a float** (decimal number), even if it divides evenly!
+**Division** (भागाकार — एक संख्या दुसऱ्याने भागणे) splits a number into equal parts. The result is **always a float** (decimal number), even if it divides evenly!
 
 ```python
 print(15 / 3)
@@ -282,7 +282,7 @@ Full buses: 3
 
 ### Modulus (`%`) -- The Remainder
 
-The modulus operator gives you the **remainder** after division. It answers: "What is left over?"
+The **modulus** (भागाकाराचा शेष — भागाकारानंतर उरलेली संख्या) operator gives you the **remainder** after division. It answers: "What is left over?"
 
 ```python
 print(15 % 4)     # 15 / 4 = 3 remainder 3
@@ -686,7 +686,7 @@ Lowest score: 78
 
 ## Importing the `math` Module
 
-Python has a special toolbox called the `math` module that contains extra math functions. To use it, you need to **import** it first:
+Python has a special toolbox called the `math` **module** (मोड्यूल — कोडाची स्वतंत्र फाइल, जी import करता येते) that contains extra math functions. To use it, you need to **import** (इम्पोर्ट — दुसऱ्या मोड्यूलमधील कोड वापरणे) it first:
 
 ```python
 import math

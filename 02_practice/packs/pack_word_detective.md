@@ -4,12 +4,12 @@ Welcome, Detective. Your job is to investigate words — count their letters, fi
 
 This is a **themed pack** *(विषयाधारित संच)*. The problems get harder as you go, and they mix concepts from several lessons. You'll use:
 
-- Strings & indexing *(स्ट्रिंग)* — Lesson 04
-- Conditions *(अट)* — Lesson 05
-- Loops *(लूप)* — Lesson 06
-- Lists *(यादी)* — Lesson 07
-- Dictionaries *(शब्दकोश)* — Lesson 08
-- Functions *(फंक्शन)* — Lesson 09
+- Strings & indexing (स्ट्रिंग — अवतरण चिन्हांतील अक्षरांची मालिका) — Lesson 04
+- Conditions (अट — खरे/खोटे ठरवणारे विधान) — Lesson 05
+- Loops (लूप — कोडचा भाग पुन्हा पुन्हा चालवणे) — Lesson 06
+- Lists (यादी — क्रमानुसार साठवलेली अनेक मूल्ये) — Lesson 07
+- Dictionaries (शब्दकोश — नाव आणि मूल्य अशा जोड्यांचा संग्रह) — Lesson 08
+- Functions (फंक्शन — नाव दिलेला, एक काम करणारा कोडाचा गट) — Lesson 09
 
 If you haven't finished Lesson 09 yet, skip the last few problems and come back.
 
@@ -144,7 +144,7 @@ Both work. The first is the "Pythonic" way; the second is the way most other lan
 
 ## Case 5: The Palindrome 🟡
 
-A **palindrome** *(पॅलिंड्रोम)* is a word that reads the same forwards and backwards. `"racecar"`, `"level"`, `"madam"`, `"noon"` — all palindromes.
+A **palindrome** (पॅलिंड्रोम — मागे-पुढे सारखाच वाचला जाणारा शब्द) is a word that reads the same forwards and backwards. `"racecar"`, `"level"`, `"madam"`, `"noon"` — all palindromes.
 
 Write a program that decides if a word is a palindrome. Ignore case.
 
@@ -217,7 +217,7 @@ This replaces the whole `if/else`. We'll formally teach `.get()` later, but you 
 
 ## Case 7: The Anagram Investigation 🟡
 
-Two words are **anagrams** *(ॲनाग्राम)* if they use **exactly the same letters**, just in a different order. `"listen"` and `"silent"` — anagrams. `"detective"` and `"detected"` — not anagrams.
+Two words are **anagrams** (ॲनाग्राम — समान अक्षरे वेगळ्या क्रमात असलेला शब्द) if they use **exactly the same letters**, just in a different order. `"listen"` and `"silent"` — anagrams. `"detective"` and `"detected"` — not anagrams.
 
 Write a program that takes two words and reports whether they're anagrams. Ignore case and spaces.
 
@@ -296,7 +296,7 @@ else:
 
 ## Case 9: Caesar's Whisper 🔴
 
-Caesar — the Roman emperor — sent secret messages by shifting every letter by 3 places. `A` became `D`, `B` became `E`, `C` became `F`, and so on. This is called a **Caesar cipher** *(सीझर सिफर — एक प्रकारचा गुप्त संदेश)*.
+Caesar — the Roman emperor — sent secret messages by shifting every letter by 3 places. `A` became `D`, `B` became `E`, `C` became `F`, and so on. This is called a **Caesar cipher** (सीझर सिफर — अक्षरे ठराविक जागांनी पुढे सरकवणारी गुप्त लिपी).
 
 Write a program that takes a word and a number `shift`, then prints the encoded version. Assume lowercase letters only, and the shift wraps around (so shifting `"z"` by `1` gives `"a"`).
 

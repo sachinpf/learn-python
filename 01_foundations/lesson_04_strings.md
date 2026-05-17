@@ -1,6 +1,6 @@
 # Lesson 04: Strings - Playing with Text!
 
-Welcome to the wonderful world of **strings**! If numbers are the math side of Python, strings are the **language** side. Every time you see text on a screen -- a name, a message, a story -- that's a string in action!
+Welcome to the wonderful world of **strings** (स्ट्रिंग — अवतरण चिन्हांतील अक्षरांची मालिका)! If numbers are the math side of Python, strings are the **language** side. Every time you see text on a screen -- a name, a message, a story -- that's a string in action!
 
 ---
 
@@ -124,7 +124,7 @@ Computerland
 
 ## String Length: `len()`
 
-Want to know how many characters are in a string? Use the `len()` function! It counts **every** character, including spaces and symbols.
+Want to know how many characters are in a string? Use the `len()` **function** (फंक्शन — नाव दिलेला, एक काम करणारा कोडाचा गट)! It counts **every** character, including spaces and symbols.
 
 ```python
 word = "Python"

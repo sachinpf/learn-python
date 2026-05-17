@@ -60,8 +60,8 @@ FizzBuzz is one of the most well-known beginner puzzles in the world. It looks e
 
 You need two tools from your earlier lessons:
 
-- A **loop** *(लूप)* that counts from 1 to 20.
-- A way to ask "is this number a multiple of 3?" The same trick from Lesson 05 works: the **modulus** *(भागाकाराचा शेष)* operator `%`.
+- A **loop** (लूप — कोडचा भाग पुन्हा पुन्हा चालवणे) that counts from 1 to 20.
+- A way to ask "is this number a multiple of 3?" The same trick from Lesson 05 works: the **modulus** (भागाकाराचा शेष — भागाकारानंतर उरलेली संख्या) operator `%`.
 
 Reminder:
 - `n % 3 == 0` is `True` when `n` is divisible by 3.

@@ -10,7 +10,7 @@
 
 **Errors are information.** They are Python's way of telling you, in plain English, exactly what went wrong and where. The more comfortable you get reading errors, the faster you become at fixing them. Every professional programmer, no matter how senior, runs into errors every single day.
 
-In programming, **errors** *(त्रुटी / एरर)* — also called **bugs** *(बग)* — are messages Python shows you when something goes wrong with your code.
+In programming, **errors** (त्रुटी — कोडमधील चूक जी Python ओळखतो) — also called **bugs** (बग — अनपेक्षित चुकीचे वर्तन घडवणारी कोडमधील चूक) — are messages Python shows you when something goes wrong with your code.
 
 The word "bug" comes from an actual bug! In 1947, engineers found a real moth stuck inside a computer that was causing problems. They taped it into their logbook and wrote "First actual case of bug being found." And the name stuck!
 
@@ -32,7 +32,7 @@ Let's look at each error type with examples. Don't be scared — errors are your
 
 ### 1. SyntaxError — You Broke Python's Grammar Rules
 
-A **SyntaxError** means Python can't even understand your code. It's like writing a sentence without proper grammar.
+A **SyntaxError** (सिंटॅक्स त्रुटी — कोड लिखाणाच्या नियमांची चूक) means Python can't even understand your code. It's like writing a sentence without proper grammar.
 
 ```python
 # Missing colon after if statement
@@ -350,9 +350,9 @@ FileNotFoundError: [Errno 2] No such file or directory: 'daata.txt'
 
 ## try-except Blocks — Catching Errors
 
-Instead of letting errors crash your program, you can **catch** them and handle them gracefully! When Python "raises" an error, programmers also call that error an **exception** *(अपवाद)* — because it's an exception to the normal flow of your program.
+Instead of letting errors **crash** (क्रॅश होणे — कार्यक्रम अकस्मात थांबणे) your program, you can **catch** them and handle them gracefully! When Python "raises" an error, programmers also call that error an **exception** (अपवाद — कोड चालत असताना उद्भवलेली त्रुटी) — because it's an exception to the normal flow of your program.
 
-Think of `try-except` as a **safety net** under a tightrope walker. If they fall, the net catches them.
+Think of `try-except` (try / except — अपवाद पकडून कार्यक्रम क्रॅश न होऊ देणारी रचना) as a **safety net** under a tightrope walker. If they fall, the net catches them.
 
 > **When should you use `try-except`?** Not for *every* error! Use it for **expected** problems you can't prevent — like bad user input, missing files, or a network being down. Don't use it to hide bugs in your own code. If your variable name is misspelled, fix the typo — don't wrap it in `try-except`!
 
@@ -637,7 +637,7 @@ except ValueError as e:
 
 ## Common Debugging Tips
 
-Debugging is like being a detective — you're looking for clues to find the bug!
+Debugging (डीबग — बग शोधून दूर करणे) is like being a detective — you're looking for clues to find the bug!
 
 ### Tip 1: Read the Error Message Carefully
 

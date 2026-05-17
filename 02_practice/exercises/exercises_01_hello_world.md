@@ -9,11 +9,11 @@
 Quick refresher *(संक्षिप्त उजळणी)*:
 
 - `print("text")` displays text on the screen.
-- A `string` *(स्ट्रिंग)* is text wrapped in `"..."` or `'...'`.
+- A `string` (स्ट्रिंग — अवतरण चिन्हांतील अक्षरांची मालिका) is text wrapped in `"..."` or `'...'`.
 - `print()` with nothing inside makes a **blank line**.
 - `print("a", "b")` prints `a b` — comma adds a space.
 - Escape: `\n` = new line, `\t` = tab, `\\` = backslash, `\"` = double-quote inside double-quoted string.
-- Lines starting with `#` are **comments** *(टिप्पणी)* — Python ignores them. They're for humans.
+- Lines starting with `#` are **comments** (टिप्पणी — Python दुर्लक्षित करणारा माणसासाठीचा मजकूर) — Python ignores them. They're for humans.
 
 ---
 
@@ -333,7 +333,7 @@ print("""Sachin Fegade
 Plot 42, Green Lane
 Pune, 411001""")
 ```
-**Teaching note:** Triple-quoted strings *(तीन अवतरण चिन्हे)* preserve line breaks exactly as you type them. Great for poems, addresses, or any block of text where line breaks matter. Watch the closing `"""` — don't accidentally add a stray newline before it, or you'll get an empty trailing line.
+**Teaching note:** Triple-quoted strings (तीन अवतरण चिन्हे — `"""` किंवा `'''`, अनेक ओळींची स्ट्रिंग) preserve line breaks exactly as you type them. Great for poems, addresses, or any block of text where line breaks matter. Watch the closing `"""` — don't accidentally add a stray newline before it, or you'll get an empty trailing line.
 </details>
 
 ---
@@ -377,7 +377,7 @@ print("Name\tAge\tCity")
 print("Aarav\t11\tPune")
 print("Diya\t10\tMumbai")
 ```
-**Teaching note:** `\t` is a **tab character** *(टॅब)*. It moves the cursor to the next "tab stop" — usually 4 or 8 spaces over. It's the easiest way to make rough columns. For perfectly aligned columns, there are fancier tools you'll meet later — but `\t` is good enough for most beginner programs.
+**Teaching note:** `\t` is a **tab character** (टॅब — मोठी रिक्त जागा देणारा वर्ण `\t`). It moves the cursor to the next "tab stop" — usually 4 or 8 spaces over. It's the easiest way to make rough columns. For perfectly aligned columns, there are fancier tools you'll meet later — but `\t` is good enough for most beginner programs.
 </details>
 
 ---
@@ -558,7 +558,7 @@ End.
 **Teaching note:** Four sneaky details in one problem.
 
 1. `print("a", "b", "c")` — commas insert a space → `a b c`.
-2. `print("a" "b" "c")` — **no commas**! Two strings written next to each other (with no operator between) get **glued together** by Python. This is called **string concatenation by adjacency** *(शेजारी जोडणी)* and it surprises almost everyone. Result: `abc`.
+2. `print("a" "b" "c")` — **no commas**! Two strings written next to each other (with no operator between) get **glued together** by Python. This is called **string concatenation by adjacency** (शेजारी जोडणी — दोन स्ट्रिंग्स शेजारी ठेवून आपोआप जोडल्या जाणे) and it surprises almost everyone. Result: `abc`.
 3. `print("a\tb\tc")` — tabs between letters.
 4. `print("a\nb\nc")` — newlines between letters, so each letter goes on its own line.
 5. `print()` — blank line.

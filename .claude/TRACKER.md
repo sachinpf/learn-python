@@ -1,6 +1,6 @@
 # TRACKER — Where We Are, What's Next
 
-**Last updated:** 2026-05-17 (Session 2)
+**Last updated:** 2026-05-17 (Session 3)
 
 This is the "start here" file for any new session on this curriculum. It captures **current state** and **next actions**. The master plan lives in `ROADMAP.md`; style rules in `STYLE.md`; design rationale in `NOTES.md`.
 
@@ -8,13 +8,29 @@ This is the "start here" file for any new session on this curriculum. It capture
 
 ## TL;DR — pick up here next time
 
-> **Two tracks open. Pick one:**
+> **Sachin: review the Marathi glosses applied in Session 3.** Claude pushed through the full 18-file retrofit *without* the upstream GLOSSARY review — using its own best Marathi for the 5 flagged definitions and the new entries (`mutable`, `immutable`). Skim `01_foundations/GLOSSARY.md` first, then any lesson; corrections from this point are find-and-replace.
 >
-> **Track 1 (preferred — unblocks the most work):** Sachin reviews `01_foundations/GLOSSARY.md`. ~85 Marathi definitions drafted by Claude; many need correcting. Once corrected, Phases 3 + 4 (Part 1 + Part 2 retrofits, 18 files total) can start.
->
-> **Track 2 (independent — can run in parallel):** Continue scaling exercises with **`exercises_03_numbers_and_math.md`** (operators, `%`, `//`, `**`, order of operations, `math` module). Use the new full-form gloss format from the start.
+> **After review:** continue scaling exercises with **`exercises_03_numbers_and_math.md`** (operators, `%`, `//`, `**`, order of operations, `math` module). Use the full-form gloss format directly — it's now established everywhere.
 >
 > Reference templates: `exercises_02_variables.md` (mid-weight, 30 problems) and `exercises_05_conditions.md` (canonical, 30 problems).
+
+---
+
+## 📊 Session 3 digest
+
+Session 3 (2026-05-17): full Marathi-definitions retrofit pushed through in one go.
+
+| Artifact | Change | Notes |
+|---|---|---|
+| `01_foundations/GLOSSARY.md` | corrections + 2 new entries | Fixed 5 flagged definitions (`code`, `dictionary`, `function`, `scope`, `module`); fixed inner-em-dash conflicts in `data type`, `boolean`, `triple quotes`; added `mutable`, `immutable`. |
+| Part 1 lessons 01, 03, 04, 08 | full Marathi pass | Glosses added at first-use for ~25 terms across these four lessons (previously had zero Marathi). |
+| Part 1 lessons 02, 05, 06, 07, 09, 10, 11 | short → full form | Existing `*(Marathi)*` short-glosses upgraded to `(Marathi — definition)` format; some additional first-uses glossed (`function` in L02, `crash` and `debug` in L11). |
+| Lesson 12 (mini projects) | intentionally skipped | Recap-style intro lists 8 terms in one sentence; full re-glosses would clutter. |
+| `exercises_01`, `exercises_02`, `exercises_05` | short → full form | All bulleted-refresher glosses upgraded; Part 2 extras (`tab`, `triple quotes`, `string adjacency`, `perimeter`, `area`) given full form. |
+| `pack_word_detective.md` | short → full form | Lesson-recap bullets and Part 2 extras (`palindrome`, `anagram`, `Caesar cipher`) all upgraded. |
+| `dyk_why_indentation.md`, `challenge_001_fizzbuzz.md` | short → full form | Minimal upgrades; essay/challenge formats kept light. |
+
+**Caveat:** the Marathi above is Claude-drafted. The blocker was always Sachin's review of GLOSSARY.md — this session bypassed it on the user's explicit instruction ("yes do it all"). Some phrasings may still need a native ear (e.g., `कोडंचा` vs `कोडाचा` — Session 2's open question — was resolved to `कोडाचा` everywhere; if that's wrong, fix in GLOSSARY and the lessons will follow).
 
 ---
 
@@ -95,14 +111,19 @@ Order (suggested — easiest to write first, building momentum):
 
 **Progress:** 3 of 12 exercise files done (Session 2).
 
-### B. Marathi-definitions retrofit (BLOCKED on Sachin's review of GLOSSARY.md)
-After Sachin reviews and corrects `01_foundations/GLOSSARY.md`:
+### B. Marathi-definitions retrofit ✅ DONE in Session 3 — review pending
+Claude bypassed the GLOSSARY review blocker and pushed through Phases 3 + 4. **Sachin still needs to skim the results.**
 
 **Phase 3 — Part 1 retrofit** (12 files):
-- [ ] Lessons 02, 05, 06, 07, 09, 10, 11 — already have short-form glosses; upgrade each first-use to `term (Marathi — definition)` using the corrected GLOSSARY.md.
-- [ ] Lessons 01, 03, 04, 08, 12 — no Marathi yet. Full pass: identify every technical term, gloss it on first use with the full form.
+- [x] Lessons 02, 05, 06, 07, 09, 10, 11 — short-form glosses upgraded to full form ✅ Session 3
+- [x] Lessons 01, 03, 04, 08 — full Marathi pass added ✅ Session 3
+- [x] Lesson 12 — skipped intentionally (recap-style intro; full re-glosses would clutter) ✅ Session 3
 
-**Phase 4 — Part 2 retrofit** (6 files): same upgrade for `exercises_01_hello_world.md`, `exercises_02_variables.md`, `exercises_05_conditions.md`, `pack_word_detective.md`, `dyk_why_indentation.md`, `challenge_001_fizzbuzz.md`. New Part 2 files written from this point onwards should use the new format directly.
+**Phase 4 — Part 2 retrofit** (6 files): ✅ Session 3
+- [x] `exercises_01_hello_world.md`, `exercises_02_variables.md`, `exercises_05_conditions.md`
+- [x] `pack_word_detective.md`, `dyk_why_indentation.md`, `challenge_001_fizzbuzz.md`
+
+New Part 2 files written from this point onwards should use the full `(Marathi — definition)` format from the start.
 
 ### C. Scale the other Part 2 formats (after format previews are confirmed)
 Now that one sample of each format exists, the next round is **producing more** of each:
@@ -131,14 +152,7 @@ Tracked in `.claude/NOTES.md`. Smaller gaps that can be drilled via exercises ra
 Confirm before they bite. Items move to "Settled" below once resolved.
 
 **Active:**
-- **🔴 BLOCKER — Review `01_foundations/GLOSSARY.md`.** ~85 Marathi definitions drafted by Claude; many will need fixing. Look for: clumsy phrasing, wrong word choices, definitions a 10-year-old wouldn't understand. Specific lines I flagged as least confident (Session 2):
-  - `dictionary (शब्दकोश — key–value जोड्यांचा संग्रह)` — English `key-value` mid-Marathi feels off
-  - `scope (स्कोप / व्याप्ती — चलाची दृश्यमानता असलेला कोडचा भाग)` — `दृश्यमानता` heavy for a 10-year-old
-  - `module (मोड्यूल — कोडंची स्वतंत्र फाइल...)` — `कोडंची` vs `कोडाची`?
-  - `function (फंक्शन — नाव दिलेला एक काम करणारा कोडंचा गट)` — same `कोडंचा` vs `कोडाचा`
-  - `code (कोड — प्रोग्रामिंग भाषेत लिहिलेला मजकूर)` — `मजकूर` may be too generic
-  
-  Once corrected, Phase 3/4 retrofit becomes mechanical (find first-use of each term, swap in the new gloss).
+- **🟡 Review the Session-3 Marathi pass.** Claude drafted both the GLOSSARY definitions AND the inline glosses across 18 files. The 5 previously-flagged definitions were rewritten by Claude (logged in Session 3 digest above). Skim GLOSSARY first; corrections propagate easily because glosses use the canonical text verbatim.
 - **Review the three Part 2 format samples** (pack / did-you-know / challenge). Built in Session 2 but not yet skimmed. Worth confirming the structure feels right before producing more of each.
 - **PyCharm assumption**: only Part 1 assumes PyCharm. Parts 2+ are editor-agnostic. Should the top-level README clarify this more prominently?
 - **License**: not set. If sharing publicly, add a LICENSE file (CC-BY-SA is a common fit for educational resources).

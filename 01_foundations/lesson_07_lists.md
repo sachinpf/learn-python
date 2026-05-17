@@ -16,7 +16,7 @@ Imagine you are going to the grocery store. You write down everything you need o
 5. Apples
 ```
 
-That is exactly what a **list** *(यादी)* is in Python -- a collection of items stored together in a specific order.
+That is exactly what a **list** (यादी — क्रमानुसार साठवलेली अनेक मूल्ये) is in Python -- a collection of items stored together in a specific order.
 
 Or think about your **music playlist** on your phone. You have a bunch of songs stored in one playlist. You can add songs, remove songs, rearrange them, or skip to any song you want. A Python list works the same way!
 
@@ -160,7 +160,7 @@ This is super handy when you want to quickly grab the last item without counting
 
 ## Modifying Items
 
-Unlike some other data types, you can **change** items in a list. Lists are **mutable** *(बदलण्यायोग्य)* — meaning their contents can be modified after they're created. (Strings, for example, are *not* mutable — that's why every string method gives you a brand new string.)
+Unlike some other data types, you can **change** items in a list. Lists are **mutable** (बदलण्यायोग्य — तयार झाल्यानंतर बदलू शकणारा प्रकार) — meaning their contents can be modified after they're created. (Strings, for example, are *not* mutable — that's why every string method gives you a brand new string.)
 
 Just use the index to pick which item to change.
 

@@ -10,7 +10,7 @@ Imagine you have a bunch of **labeled boxes** in your room.
 - Another box is labeled **"Age"** and inside it you put the number 10.
 - A third box is labeled **"Favorite Color"** and inside it you put "Blue."
 
-In Python, **variables** *(चल)* work exactly like these labeled boxes. A variable is a **name** that stores a **value** *(मूल्य)*. You can look inside the box anytime to see what is in it, and you can even swap out what is inside for something new!
+In Python, **variables** (चल — एखादे मूल्य ठेवण्यासाठीचे नाव) work exactly like these labeled boxes. A variable is a **name** that stores a **value** (मूल्य — चलामध्ये ठेवलेली माहिती). You can look inside the box anytime to see what is in it, and you can even swap out what is inside for something new!
 
 ```python
 name = "Sachin"
@@ -129,11 +129,11 @@ You cannot name your variables just anything. Python has some rules:
 
 Not everything you store in a variable is the same kind of thing. Your name is text, your age is a whole number, your height might be a decimal number, and "Are you a student?" is either yes or no.
 
-Python has different **data types** *(डेटा प्रकार)* for these:
+Python has different **data types** (डेटा प्रकार — डेटाचा वर्ग: संख्या, स्ट्रिंग, बूलियन इत्यादी) for these:
 
 ### 1. `str` (String) -- Text
 
-A **string** *(स्ट्रिंग)* is any text wrapped in quotes. It can contain letters, numbers, spaces, symbols -- anything!
+A **string** (स्ट्रिंग — अवतरण चिन्हांतील अक्षरांची मालिका) is any text wrapped in quotes. It can contain letters, numbers, spaces, symbols -- anything!
 
 ```python
 first_name = "Sachin"
@@ -146,7 +146,7 @@ Strings must always be in quotes (single `'...'` or double `"..."`).
 
 ### 2. `int` (Integer) -- Whole Numbers
 
-An **integer** *(पूर्णांक)* is a whole number -- no decimal point. It can be positive, negative, or zero.
+An **integer** (पूर्णांक — दशांशविनाचा पूर्ण संख्या प्रकार) is a whole number -- no decimal point. It can be positive, negative, or zero.
 
 ```python
 age = 10
@@ -160,7 +160,7 @@ big_number = 1000000
 
 ### 3. `float` (Floating Point) -- Decimal Numbers
 
-A **float** *(दशांश)* is a number that has a **decimal point**.
+A **float** (दशांश — दशांश चिन्ह असलेली संख्या) is a number that has a **decimal point**.
 
 ```python
 height = 4.5
@@ -173,7 +173,7 @@ negative_float = -2.7
 
 ### 4. `bool` (Boolean) -- True or False
 
-A **boolean** *(बूलियन — सत्य किंवा असत्य)* can only be one of two values: `True` or `False`. Think of it like a light switch -- it is either ON or OFF.
+A **boolean** (बूलियन — True किंवा False, फक्त दोन मूल्यांचा प्रकार) can only be one of two values: `True` or `False`. Think of it like a light switch -- it is either ON or OFF.
 
 ```python
 is_student = True
@@ -197,7 +197,7 @@ has_pet = False
 
 ## The `type()` Function
 
-Not sure what type a variable is? Ask Python using the `type()` function!
+Not sure what type a variable is? Ask Python using the `type()` **function** (फंक्शन — नाव दिलेला, एक काम करणारा कोडाचा गट)!
 
 ```python
 name = "Sachin"
@@ -357,7 +357,7 @@ This is handy when you want to set several variables to the same starting value.
 
 So far, all the values in our programs have been decided by us (the programmer). But what if you want the **user** (the person running the program) to type something?
 
-That is where `input()` comes in! The `input()` function **pauses** the program and **waits** for the user to type something.
+That is where `input()` (इनपुट — कार्यक्रमात आत येणारी माहिती) comes in! The `input()` function **pauses** the program and **waits** for the user to type something.
 
 ```python
 name = input("What is your name? ")

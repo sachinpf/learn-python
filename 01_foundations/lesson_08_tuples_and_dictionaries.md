@@ -8,14 +8,14 @@ Welcome back! In this lesson, you will learn three more ways to store data in Py
 
 ### What Is a Tuple?
 
-A **tuple** is like a list, but with one big difference -- **you cannot change it** after you create it. Think of it like writing something in permanent marker instead of pencil. Once it is written, it stays that way!
+A **tuple** (ट्युपल — बदलू न शकणारी यादी) is like a list, but with one big difference -- **you cannot change it** after you create it. Think of it like writing something in permanent marker instead of pencil. Once it is written, it stays that way!
 
 **Analogy:** Imagine your **date of birth**. It is April 15, 2012. That never changes. It is fixed, permanent, and locked in. A tuple is perfect for storing data like this.
 
 **Key facts about tuples:**
 - Tuples use **parentheses** `()` instead of square brackets `[]`
 - They are **ordered** (items have a position)
-- They are **immutable** (cannot be changed after creation)
+- They are **immutable** (अपरिवर्तनीय — तयार झाल्यानंतर बदलू न शकणारा प्रकार) — cannot be changed after creation
 - They can hold **different data types**
 - They are **faster** than lists (because Python knows they will not change)
 
@@ -251,7 +251,7 @@ Is 4 in the tuple? False
 
 ### What Is a Dictionary?
 
-A **dictionary** stores data in **key-value pairs**. Think of a real dictionary: you look up a **word** (the key) and find its **definition** (the value).
+A **dictionary** (शब्दकोश — नाव आणि मूल्य अशा जोड्यांचा संग्रह) stores data in **key-value pairs**. Think of a real dictionary: you look up a **word** (the key) and find its **definition** (the value).
 
 **Analogy 1 -- A Real Dictionary:**
 - Word "Python" -> Definition: "A programming language"
@@ -693,7 +693,7 @@ Charlie:
 
 ### What Is a Set?
 
-A **set** is a collection of **unique** items (no duplicates allowed!). Sets are great when you care about "what items do I have?" but not about their order.
+A **set** (संच — अद्वितीय मूल्यांचा गट) is a collection of **unique** items (no duplicates allowed!). Sets are great when you care about "what items do I have?" but not about their order.
 
 **Analogy:** Think of a **bag of marbles**. Each marble is a different color. You cannot have two identical marbles, and they are all jumbled up in the bag (no specific order).
 

@@ -44,7 +44,7 @@ Most languages use special symbols:
 | Bash | `then` | `fi` |
 | Python | (a newline + indentation) | (a dedent) |
 
-The first three are explicit — you literally type a symbol or a word. Python uses **whitespace** *(रिक्त जागा)* itself as the marker. Indent more = you're inside the block. Indent less = you're out of it.
+The first three are explicit — you literally type a symbol or a word. Python uses **whitespace** (रिक्त जागा — कोडमधील मोकळ्या जागा: स्पेस, टॅब इत्यादी) itself as the marker. Indent more = you're inside the block. Indent less = you're out of it.
 
 This is unusual. So why did Python's creator, **Guido van Rossum**, choose it?
 

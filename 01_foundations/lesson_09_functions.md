@@ -6,7 +6,7 @@ Welcome to one of the most important lessons in your Python journey -- **Functio
 
 ## What Are Functions?
 
-A **function** *(फंक्शन)* is a reusable block of code that performs a specific task. You write it once, and then you can use it as many times as you want!
+A **function** (फंक्शन — नाव दिलेला, एक काम करणारा कोडाचा गट) is a reusable block of code that performs a specific task. You write it once, and then you can use it as many times as you want!
 
 ### Analogy 1: A Recipe
 
@@ -66,7 +66,7 @@ def say_hello():
 
 ## Calling Functions
 
-To actually **run** a function, you "call" it by writing its name followed by parentheses.
+To actually **run** a function, you **call** (बोलावणे — फंक्शनला सुरू करून त्याचे काम करायला लावणे) it by writing its name followed by parentheses.
 
 ```python
 def say_hello():
@@ -122,10 +122,10 @@ draw_line()
 
 ## Parameters and Arguments
 
-**Parameters** *(पॅरामीटर)* make functions flexible. Instead of always doing the same thing, a function can accept **input** and behave differently based on what you give it.
+**Parameters** (पॅरामीटर — फंक्शन व्याख्येत वापरलेले इनपुटचे नाव) make functions flexible. Instead of always doing the same thing, a function can accept **input** and behave differently based on what you give it.
 
 - **Parameter** = the variable name in the function definition (the placeholder)
-- **Argument** *(आर्ग्युमेंट)* = the actual value you pass when calling the function
+- **Argument** (आर्ग्युमेंट — फंक्शनला बोलवताना दिलेले प्रत्यक्ष मूल्य) = the actual value you pass when calling the function
 
 > **Easy way to remember:** **P**arameter = **P**laceholder (when you write the function). **A**rgument = **A**ctual value (when you call the function). People often use these two words interchangeably in casual speech, and that's fine — but if a tutorial or error message uses one, now you know which is which.
 
@@ -208,7 +208,7 @@ Rectangle: 4 x 4
 
 ## Return Values
 
-So far, our functions have been **printing** results. But often, you want a function to **give back** *(परत देणे)* a value so you can use it later. That is what `return` does.
+So far, our functions have been **printing** results. But often, you want a function to **give back** a value so you can use it later. That is what `return` (परत देणे — फंक्शनने उत्तर पाठवून बंद होणे) does.
 
 Think of it this way:
 - **print()** -- shows something on screen (like shouting the answer)
@@ -443,7 +443,7 @@ print(f"100 / 7 = {q} remainder {r}")
 
 ## Scope: Local vs Global Variables
 
-**Scope** means "where a variable can be seen and used." This is a really important concept!
+**Scope** (स्कोप — चल कुठे वापरता येते ते कोडचे क्षेत्र) means "where a variable can be seen and used." This is a really important concept!
 
 ### Local Variables
 

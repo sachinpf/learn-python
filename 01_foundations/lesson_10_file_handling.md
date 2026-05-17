@@ -6,7 +6,7 @@
 
 ## What Are Files?
 
-Think of **files** *(फाइल्स)* like notebooks or journals that your computer keeps. When you write something in a notebook, it stays there even after you close it. Files work the same way!
+Think of **files** (फाइल — डेटा साठवलेले एकक) like notebooks or journals that your computer keeps. When you write something in a notebook, it stays there even after you close it. Files work the same way!
 
 Without files, everything your program creates **disappears** when the program ends. It's like writing on a whiteboard that gets erased every night.
 

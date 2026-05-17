@@ -8,9 +8,9 @@
 
 Quick refresher *(संक्षिप्त उजळणी)*:
 
-- A **variable** *(चल)* stores a **value** *(मूल्य)*. Create one with `name = "Sachin"`.
+- A **variable** (चल — एखादे मूल्य ठेवण्यासाठीचे नाव) stores a **value** (मूल्य — चलामध्ये ठेवलेली माहिती). Create one with `name = "Sachin"`.
 - The `=` is an **arrow pointing left** — the value on the right gets placed in the box on the left.
-- The four basic **data types** *(डेटा प्रकार)* are: **string** *(स्ट्रिंग)*, **integer** *(पूर्णांक)*, **float / decimal** *(दशांश)*, **boolean** *(बूलियन)*.
+- The four basic **data types** (डेटा प्रकार — डेटाचा वर्ग: संख्या, स्ट्रिंग, बूलियन इत्यादी) are: **string** (स्ट्रिंग — अवतरण चिन्हांतील अक्षरांची मालिका), **integer** (पूर्णांक — दशांशविनाचा पूर्ण संख्या प्रकार), **float / decimal** (दशांश — दशांश चिन्ह असलेली संख्या), **boolean** (बूलियन — True किंवा False, फक्त दोन मूल्यांचा प्रकार).
 - `type(x)` tells you what kind of thing `x` is.
 - `input("prompt: ")` pauses the program and **always returns a string**, even when the user types digits.
 - `int("10")` converts text to an integer; `float("3.5")` to a float; `str(10)` back to text.
@@ -306,7 +306,7 @@ Welcome, Priya! Glad to see you.
 name = input("What is your name? ")
 print(f"Welcome, {name}! Glad to see you.")
 ```
-**Teaching note:** `input()` *(इनपुट)* shows the prompt, waits for the user to type and press Enter, then hands the typed text back as a string. The space at the end of the prompt (`"What is your name? "`) is a small kindness — it puts the user's cursor one space after the question mark, instead of glued to it.
+**Teaching note:** `input()` (इनपुट — कार्यक्रमात आत येणारी माहिती) shows the prompt, waits for the user to type and press Enter, then hands the typed text back as a string. The space at the end of the prompt (`"What is your name? "`) is a small kindness — it puts the user's cursor one space after the question mark, instead of glued to it.
 </details>
 
 ---
@@ -597,8 +597,8 @@ print("*****************************")
 ### Problem 22: Garden Path
 
 A square garden has a side of `side` metres. Ask the user for the side length (could be decimal). Compute and print:
-- the **perimeter** *(परिमिती)* — the distance around the garden
-- the **area** *(क्षेत्रफळ)* — the surface inside the garden
+- the **perimeter** (परिमिती — आकाराभोवती फिरताना मिळणारी एकूण लांबी) — the distance around the garden
+- the **area** (क्षेत्रफळ — आकाराच्या आत असलेला पृष्ठभाग) — the surface inside the garden
 
 **Sample interaction:**
 ```

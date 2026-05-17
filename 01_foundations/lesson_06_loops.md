@@ -1,6 +1,6 @@
 # Lesson 06: Loops - Making Your Code Repeat!
 
-Imagine you have to write "I will practice coding" on a board 100 times. Would you rather write it out 100 times by hand, or tell someone "write this sentence 100 times"? That's exactly what **loops** *(लूप — पुनरावृत्ती)* do -- they tell Python to **repeat** something as many times as you want!
+Imagine you have to write "I will practice coding" on a board 100 times. Would you rather write it out 100 times by hand, or tell someone "write this sentence 100 times"? That's exactly what **loops** (लूप — कोडचा भाग पुन्हा पुन्हा चालवणे) do -- they tell Python to **repeat** something as many times as you want!
 
 ---
 
@@ -39,7 +39,7 @@ Same result, way less typing! Now imagine if you needed to print it 1000 times -
 - Climbing stairs (repeat: step up, step up, step up...)
 - Dealing cards in a game (repeat: deal one card to each player)
 
-Python has two types of loops: **`for` loops** *(for लूप)* and **`while` loops** *(while लूप)*.
+Python has two types of loops: **`for` loops** (for लूप — ठराविक वेळा किंवा यादीवर फिरणारा लूप) and **`while` loops** (while लूप — अट खरी असेपर्यंत चालू राहणारा लूप).
 
 ---
 
@@ -172,7 +172,7 @@ for i in range(30, 0, -3):
 
 ## Looping Through Strings
 
-A `for` loop can go through each character of a string, one at a time. This is called **iterating** over the string.
+A `for` loop can go through each character of a string, one at a time. This is called **iterating** (फिरवणे — लूपमधून प्रत्येक घटक एक-एक करून पाहणे) over the string.
 
 ```python
 word = "Python"
@@ -367,7 +367,7 @@ while number >= 1:
 
 ## `break` -- Escape the Loop!
 
-The `break` statement is like an emergency exit. It **immediately stops** the loop, even if the condition is still True or there are more items to go through.
+The `break` (थांबवणे — लूप पूर्ण व्हायच्या आधीच बाहेर पडणे) statement is like an emergency exit. It **immediately stops** the loop, even if the condition is still True or there are more items to go through.
 
 ```python
 for i in range(1, 11):
@@ -423,7 +423,7 @@ while True:    # This looks like it would run forever...
 
 ## `continue` -- Skip and Move On
 
-The `continue` statement skips the **rest of the current round** and jumps to the next one. It's like saying "Never mind this one, next please!"
+The `continue` (पुढे चालू ठेवणे — सध्याची आवृत्ती सोडून लगेच पुढच्या आवृत्तीकडे जाणे) statement skips the **rest of the current round** and jumps to the next one. It's like saying "Never mind this one, next please!"
 
 ```python
 for i in range(1, 11):

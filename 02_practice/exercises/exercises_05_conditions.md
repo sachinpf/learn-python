@@ -5,10 +5,10 @@
 > **How to use this file:** read the problem, type your code, run it. Only click "Show solution" after you've genuinely tried. The struggle is where the learning happens.
 
 Brief refresher *(संक्षिप्त उजळणी)*:
-- `if condition:` runs the block only when the condition is `True`
-- `elif other_condition:` is checked **only if** the previous `if`/`elif` was `False`
-- `else:` runs when nothing above matched
-- Use `and`, `or`, `not` to combine conditions
+- `if` (जर — अट खरी असेल तर कोड चालवणे) `condition` (अट — खरे/खोटे ठरवणारे विधान): runs the block only when the condition is `True`
+- `elif` (किंवा जर — आधीच्या अटी खोट्या असतील तर पुढची अट तपासणे) `other_condition:` is checked **only if** the previous `if`/`elif` was `False`
+- `else` (नाहीतर — अट खोटी असेल तर वेगळा कोड चालवणे)`:` runs when nothing above matched
+- Use `and` (आणि — दोन्ही अटी खऱ्या असणे आवश्यक), `or` (किंवा — कोणतीही एक अट खरी असली तरी पुरे), `not` (नाही — अटीला उलट करणारा) to combine conditions
 
 ---
 

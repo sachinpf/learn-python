@@ -14,7 +14,7 @@ Let's get started!
 
 Imagine you have a robot standing in front of you. This robot is super powerful -- it can do math, draw pictures, play music, and so much more. But there is one catch: **the robot only does what you tell it to do**, and you have to tell it in a language it understands.
 
-**Programming** is the art of giving instructions to a computer, step by step, in a language it can understand.
+**Programming** is the art of giving **instructions** (सूचना — संगणकाला सांगितलेले एक काम) to a **computer** (संगणक — माहिती हाताळणारे यंत्र), step by step, in a language it can understand.
 
 Think of it like writing a recipe for cooking:
 
@@ -25,13 +25,13 @@ Think of it like writing a recipe for cooking:
 
 If you skip a step or write something confusing, the recipe will not work. Computers are the same way -- they follow your instructions **exactly** as you write them. They will not guess what you meant!
 
-> **Fun Fact:** A set of instructions written for a computer is called a **program** or **code**.
+> **Fun Fact:** A set of instructions written for a computer is called a **program** (प्रोग्राम — संगणकाला दिलेल्या सूचनांचा संच) or **code** (कोड — प्रोग्रामिंग भाषेत लिहिलेल्या सूचना).
 
 ---
 
 ## What Is Python?
 
-**Python** is a programming language -- one of the many "languages" you can use to talk to a computer.
+**Python** (पायथन — एक सोपी प्रोग्रामिंग भाषा) is a **programming language** (प्रोग्रामिंग भाषा — संगणकाशी बोलण्याची भाषा) -- one of the many "languages" you can use to talk to a computer.
 
 Just like people speak English, Hindi, Spanish, or French, computers can understand different programming languages. Python is one of the most popular ones!
 
@@ -77,7 +77,7 @@ See? Python keeps things simple!
 
 ## How to Create a New Python File in PyCharm
 
-Now that your project is open, let's create a file to write code in.
+Now that your project is open, let's create a **file** (फाइल — डेटा साठवलेले एकक) to write code in.
 
 1. Look at the left side of PyCharm -- you will see your project folder.
 2. **Right-click** on the project folder name.
@@ -93,14 +93,14 @@ A new empty file called `hello.py` will open. This is where you will write your 
 
 ## How to Run a Python File in PyCharm
 
-After you write code, you need to **run** it to see what it does. There are two easy ways:
+After you write code, you need to **run** (चालवणे — कोड कार्यान्वित करणे) it to see what it does. There are two easy ways:
 
 ### Method 1: The Run Button (Green Triangle)
 
 1. Write your code in the file.
 2. Look at the **top-right corner** of PyCharm -- you will see a green **Play button** (a triangle pointing right).
 3. Click it!
-4. Your program will run, and you will see the output at the **bottom of the screen** in a panel called the **"Run" window**.
+4. Your program will run, and you will see the **output** (आउटपुट — कार्यक्रमातून बाहेर येणारी माहिती) at the **bottom of the screen** in a panel called the **"Run" window**.
 
 ### Method 2: Right-Click and Run
 
@@ -134,13 +134,13 @@ Now **run** the file (click the green Play button or right-click and select Run)
 Hello, World!
 ```
 
-**Congratulations!** You just wrote and ran your first Python program! You are officially a programmer!
+**Congratulations!** You just wrote and ran your first Python program! You are officially a **programmer** (प्रोग्रामर — कोड लिहिणारी व्यक्ती)!
 
 ---
 
 ## How `print()` Works
 
-The `print()` function is like a **loudspeaker** for your program. Whatever you put inside the parentheses `()`, Python will display it on the screen.
+The `print()` **function** (फंक्शन — नाव दिलेला, एक काम करणारा कोडाचा गट) is like a **loudspeaker** for your program. Whatever you put inside the parentheses `()`, Python will display it on the screen.
 
 ```python
 print("I am learning Python!")
@@ -157,7 +157,7 @@ I am learning Python!
 2. Use **parentheses** `()` after `print`.
 3. Put the text you want to display inside **quotes** (either `"double quotes"` or `'single quotes'`).
 
-The text inside the quotes is called a **string**. A string is just a fancy word for text.
+The text inside the quotes is called a **string** (स्ट्रिंग — अवतरण चिन्हांतील अक्षरांची मालिका). A string is just a fancy word for text.
 
 ```python
 print("This is a string!")
