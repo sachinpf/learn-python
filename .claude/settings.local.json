@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p part_1 .claude)",
+      "Bash(git mv *)",
+      "Bash(mv lesson_*.md part_1/)",
+      "Bash(mv README.md part_1/README.md)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(git *)"
+    ]
+  }
+}
