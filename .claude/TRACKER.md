@@ -1,6 +1,6 @@
 # TRACKER — Where We Are, What's Next
 
-**Last updated:** 2026-05-17 (Session 3)
+**Last updated:** 2026-05-17 (Session 4)
 
 This is the "start here" file for any new session on this curriculum. It captures **current state** and **next actions**. The master plan lives in `ROADMAP.md`; style rules in `STYLE.md`; design rationale in `NOTES.md`.
 
@@ -8,11 +8,26 @@ This is the "start here" file for any new session on this curriculum. It capture
 
 ## TL;DR — pick up here next time
 
-> **Sachin: review the Marathi glosses applied in Session 3.** Claude pushed through the full 18-file retrofit *without* the upstream GLOSSARY review — using its own best Marathi for the 5 flagged definitions and the new entries (`mutable`, `immutable`). Skim `01_foundations/GLOSSARY.md` first, then any lesson; corrections from this point are find-and-replace.
+> **Two things open. Pick one (or both):**
 >
-> **After review:** continue scaling exercises with **`exercises_03_numbers_and_math.md`** (operators, `%`, `//`, `**`, order of operations, `math` module). Use the full-form gloss format directly — it's now established everywhere.
+> **Track 1 — Sachin reviews the Marathi.** Session 3's full 18-file retrofit + Session 4's `exercises_03` were drafted without GLOSSARY review. Skim `01_foundations/GLOSSARY.md` first; corrections from here are find-and-replace.
 >
-> Reference templates: `exercises_02_variables.md` (mid-weight, 30 problems) and `exercises_05_conditions.md` (canonical, 30 problems).
+> **Track 2 — keep scaling exercises.** Next is **`exercises_04_strings.md`** (indexing, slicing, all the string methods, `in`, `*`, `+`). Then `06_loops` and `07_lists`. Template: `exercises_03_numbers_and_math.md` (just done) or `exercises_05_conditions.md` (canonical, 30 problems).
+>
+> **Progress:** 4 of 12 exercise files done (`01`, `02`, `03`, `05`).
+
+---
+
+## 📊 Session 4 digest
+
+Session 4 (2026-05-17): kicked off Part 2 exercise scaling now that the Marathi format is stable.
+
+| Artifact | Size | Notes |
+|---|---|---|
+| `02_practice/exercises/exercises_03_numbers_and_math.md` | 30 problems, ~880 lines | Operators (`+`, `-`, `*`, `/`, `//`, `%`, `**`), order of operations, shortcut ops, built-ins (`abs`, `round`, `min`, `max`), `math` module (`sqrt`, `pi`). Includes the float-surprise (`0.1 + 0.2 != 0.3`) and a negative-floor-division gotcha in Stretch. Uses full Marathi-gloss format from the start. |
+| `02_practice/exercises/README.md` | 5 lines updated | Marked `exercises_01`, `02`, `03` as ✅ Done. |
+
+Progress: 4 of 12 exercise files done. Next file: `exercises_04_strings.md`.
 
 ---
 
@@ -99,8 +114,8 @@ Order (suggested — easiest to write first, building momentum):
 - [x] `exercises_01_hello_world.md` — print, comments, strings vs numbers ✅ Session 2 (22 problems, ~530 lines)
 - [x] `exercises_02_variables.md` — types, input, casting, f-strings ✅ Session 2 (30 problems, ~720 lines). Drills input-returns-string trap (P12–15) and value-copy-on-assignment surprise (P27).
 - [x] `exercises_05_conditions.md` — `if`/`elif`/`else`, boolean logic ✅ Session 1 (30 problems, 1038 lines — canonical template).
-- [ ] `exercises_03_numbers_and_math.md` — operators, `%`, `//`, `**`, order of operations, `math` module ← **NEXT**
-- [ ] `exercises_04_strings.md` — indexing, slicing, methods, concatenation
+- [x] `exercises_03_numbers_and_math.md` — operators, `%`, `//`, `**`, order of operations, `math` module ✅ Session 4 (30 problems, ~880 lines)
+- [ ] `exercises_04_strings.md` — indexing, slicing, methods, concatenation ← **NEXT**
 - [ ] `exercises_06_loops.md` — for, while, range, break/continue, nested loops
 - [ ] `exercises_07_lists.md` — methods, slicing, looping over, the "two names" trap
 - [ ] `exercises_08_tuples_and_dictionaries.md` — when to use which, dict methods, sets
@@ -109,7 +124,7 @@ Order (suggested — easiest to write first, building momentum):
 - [ ] `exercises_11_error_handling.md` — try/except, when to use it, raise
 - [ ] `exercises_12_mini_projects.md` — project extensions / variations
 
-**Progress:** 3 of 12 exercise files done (Session 2).
+**Progress:** 4 of 12 exercise files done (`01`, `02`, `03`, `05`).
 
 ### B. Marathi-definitions retrofit ✅ DONE in Session 3 — review pending
 Claude bypassed the GLOSSARY review blocker and pushed through Phases 3 + 4. **Sachin still needs to skim the results.**

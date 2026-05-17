@@ -17,11 +17,11 @@ Solutions are **collapsed by default**. Click "Show solution" only after you've 
 
 | Topic | File | Status |
 |---|---|---|
-| Hello, World | `exercises_01_hello_world.md` | 📋 Planned |
-| Variables | `exercises_02_variables.md` | 📋 Planned |
-| Numbers & Math | `exercises_03_numbers_and_math.md` | 📋 Planned |
+| Hello, World | [`exercises_01_hello_world.md`](exercises_01_hello_world.md) | ✅ Done (22 problems) |
+| Variables | [`exercises_02_variables.md`](exercises_02_variables.md) | ✅ Done (30 problems) |
+| Numbers & Math | [`exercises_03_numbers_and_math.md`](exercises_03_numbers_and_math.md) | ✅ Done (30 problems) |
 | Strings | `exercises_04_strings.md` | 📋 Planned |
-| **Conditions** | [**`exercises_05_conditions.md`**](exercises_05_conditions.md) | ✅ **Sample available** |
+| **Conditions** | [**`exercises_05_conditions.md`**](exercises_05_conditions.md) | ✅ Done (30 problems — canonical template) |
 | Loops | `exercises_06_loops.md` | 📋 Planned |
 | Lists | `exercises_07_lists.md` | 📋 Planned |
 | Tuples, Dicts & Sets | `exercises_08_tuples_and_dictionaries.md` | 📋 Planned |
